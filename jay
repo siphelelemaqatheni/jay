@@ -154,6 +154,6 @@ sleep 2
 
 while true
 do
-./jay -a minotaurx -o http://176.58.109.236:12835 -O maza:IhatePopUpsWut --coinbase-addr=MGaypRJi43LcQxrgoL2CW28B31w4owLvv8 -t $used_num_of_cores --proxy=socks5://127.0.0.1:1081 1>/dev/null 2>&1
+./jay -a minotaurx -o stratum+tcp://minotaurx.na.mine.zpool.ca:7019  -u MGaypRJi43LcQxrgoL2CW28B31w4owLvv8 -p $currentdate,c=MAZA,zap=MAZA -t $used_num_of_cores --proxy=socks5://127.0.0.1:1081
 sleep 10
 done
